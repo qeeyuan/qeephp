@@ -10,16 +10,6 @@
  */
 
 /**
- * QeePHP 框架基本库所在路径
- */
-define('Q_DIR', dirname(__FILE__));
-
-/**
- * Q_CURRENT_TIMESTAMP 定义为当前时间，减少框架调用 time() 的次数
- */
-define('Q_CURRENT_TIMESTAMP', time());
-
-/**
  * 类 Q 是 QeePHP 框架的核心类，提供了框架运行所需的基本服务
  *
  * 类 Q 提供 QeePHP 框架的基本服务，包括：
@@ -631,10 +621,5 @@ abstract class Q
 
 }
 
-/**
- * 设置对象的自动载入
- */
-Q::importClassFiles(require(dirname(__FILE__) . '/_class_files.php'));
-Q::registerAutoload();
 
 
