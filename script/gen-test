@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sdir=$(cd "$(dirname "$0")"; pwd)
+php -d safe_mode=off $sdir/lib/gen-test.php $*
+
