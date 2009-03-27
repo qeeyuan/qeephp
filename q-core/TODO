@@ -1,0 +1,10 @@
+
+*  使用新的目录结构和命名方式
+*  为进一步模块化修改核心
+*  编写单元测试
+  *  test-q.php
+  *  test-qcoll.php
+  *  test-qexception.php
+  *  test-qlog.php
+
+

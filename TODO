@@ -1,0 +1,26 @@
+
+
+## 目录结构说明 ##
+
+根目录
+   +-- /q-core                  核心
+   |   +-- README
+   |   +-- VERSION
+   |   +-- TODO
+   |   +-- CHANGELOG
+   |   +-- /lib                 核心的代码文件
+   |   |   +-- q.php
+   |   |   +-- qcoll.php
+   |   |   +-- ...
+   |   |
+   |   +-- /test                核心的测试
+   |       +-- /fixture
+   |       +-- all.php
+   |       +-- test-qcoll.php
+   |       +-- test-q.php
+   |
+   +-- /q-orm                   ORM 组件
+   +-- /q-form                  表单组件
+   +-- ...
+
+

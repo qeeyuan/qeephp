@@ -1,0 +1,14 @@
+#!/bin/sh
+path=`pwd`
+sdir=$(cd "$(dirname "$0")"; pwd)
+mkdir $1
+cd $1
+touch README
+touch VERSION
+touch TODO
+touch CHANGELOG
+mkdir lib
+mkdir test
+cd test
+mkdir fixture
+
